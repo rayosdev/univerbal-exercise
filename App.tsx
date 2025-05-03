@@ -7,6 +7,16 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { appRouteNames } from '@/routes';
 import { z } from 'zod';
 import { Ionicons } from '@expo/vector-icons';
+import { color } from '@/styles/color';
+
+// Define a custom theme based on DarkTheme
+const MyTheme = {
+  ...DarkTheme,
+  colors: {
+    ...DarkTheme.colors,
+    background: color.bgPrimary
+  },
+};
 
 const Tab = createBottomTabNavigator();
 
@@ -19,18 +29,19 @@ const result = envSchema.safeParse(process.env);
 if (result.error) {
   console.error(result.error);
 }
-console.info('[app]: ENV', result.data);
 
 export default function App() {
   return (
-    <NavigationContainer theme={DarkTheme}>
+    <NavigationContainer theme={MyTheme}>
       <StatusBar style="dark" animated />
-
       <Tab.Navigator initialRouteName={appRouteNames.root}>
         <Tab.Screen
           name="tab-home"
           component={HomeScreen}
           options={{
+            headerTitle: 'Screen Junkies',
+            headerTitleAlign: 'center',
+            
             tabBarLabel: () => null,
             tabBarIcon: ({ color, size }) => (
               <Ionicons name="home-outline" color={color} size={size} />
@@ -41,6 +52,8 @@ export default function App() {
           name="tab-top-rated"
           component={TopRatedScreen}
           options={{
+            headerTitle: 'Top Rated',
+            headerTitleAlign: 'center',
             tabBarLabel: () => null,
             tabBarIcon: ({ color, size }) => (
               <Ionicons name="star-outline" color={color} size={size} />
@@ -51,6 +64,8 @@ export default function App() {
           name="tab-favorites"
           component={FavoritesScreen}
           options={{
+            headerTitle: 'Favorites',
+            headerTitleAlign: 'center',
             tabBarLabel: () => null,
             tabBarIcon: ({ color, size }) => (
               <Ionicons name="heart-outline" color={color} size={size} />
