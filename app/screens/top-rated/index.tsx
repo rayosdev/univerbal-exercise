@@ -7,6 +7,7 @@ import { topRatedMovies$ } from './state';
 import { TVSeries } from 'domain/tv-series';
 import { getTopRatedTvSeriesQuery } from '@/infrastructure/repositories/tv-series';
 import { Loader } from '@/ui/loader';
+import { color } from '@/styles/color';
 
 // Displays movies with rating above 75%
 export default function TopRatedScreen(): ReactNode {
@@ -52,6 +53,9 @@ const styles = StyleSheet.create({
   },
 
   title: {
+    textAlign: 'center',
+    paddingTop: 24,
     marginBottom: 24,
+    color: color.textSecondary
   },
 });
