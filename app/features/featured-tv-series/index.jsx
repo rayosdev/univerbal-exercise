@@ -4,6 +4,7 @@ import { featuredTvSeries$ } from './state';
 import { useAtom } from 'jotai';
 import { useEffect } from 'react';
 import { Rating } from '@/ui/rating';
+import { color } from '@/styles/color';
 
 export function FeaturedTvSeries() {
   const [featuredTvSeries] = useAtom(featuredTvSeries$);
@@ -17,7 +18,6 @@ export function FeaturedTvSeries() {
         data={featuredTvSeries}
         keyExtractor={(it) => it.id}
         renderItem={(it) => {
-          console.log(it.item.rating);
           return (
             <Entry
               title={it.item.title}
@@ -46,7 +46,6 @@ const featuredTvSeriesStyles = StyleSheet.create({
 });
 
 function Entry(props) {
-  console.log(props.title);
   return (
     <View style={entryStyles.root}>
       <View style={entryStyles.overlay}>
@@ -77,7 +76,7 @@ const entryStyles = StyleSheet.create({
 
   overlay: {
     position: 'absolute',
-    backgroundColor: 'black',
+    backgroundColor: color.bgPrimary,
     zIndex: 1,
     width: '100%',
     height: '50%',

@@ -6,7 +6,7 @@ export type Movie = {
   director: string;
   releaseYear: number;
   genres: string[];
-  rating: number;
   runtimeMinutes: number;
   src: string;
+  rating: number;
 };
