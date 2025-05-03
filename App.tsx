@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { NavigationContainer } from '@react-navigation/native';
+import { NavigationContainer, DarkTheme } from '@react-navigation/native';
 import HomeScreen from '@/screens/home';
 import FavoritesScreen from '@/screens/favorites';
 import TopRatedScreen from '@/screens/top-rated';
@@ -23,8 +23,8 @@ console.info('[app]: ENV', result.data);
 
 export default function App() {
   return (
-    <NavigationContainer>
-      <StatusBar style="auto" animated />
+    <NavigationContainer theme={DarkTheme}>
+      <StatusBar style="dark" animated />
 
       <Tab.Navigator initialRouteName={appRouteNames.root}>
         <Tab.Screen
