@@ -5,7 +5,11 @@
       "title": "Breaking Bad",
       "creator": "Vince Gilligan",
       "releaseYear": 2008,
-      "genres": ["Crime", "Drama", "Thriller"],
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
       "rating": 95,
       "seasons": [
         {
@@ -40,14 +44,19 @@
             }
           ]
         }
-      ]
+      ],
+      "src": "https://artworks.thetvdb.com/banners/posters/81189-10.jpg"
     },
     {
       "id": "2",
       "title": "Game of Thrones",
       "creator": "David Benioff, D.B. Weiss",
       "releaseYear": 2011,
-      "genres": ["Action", "Adventure", "Drama"],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
       "rating": 72,
       "seasons": [
         {
@@ -82,14 +91,19 @@
             }
           ]
         }
-      ]
+      ],
+      "src": "https://artworks.thetvdb.com/banners/posters/121361-4.jpg"
     },
     {
       "id": "3",
       "title": "Stranger Things",
       "creator": "The Duffer Brothers",
       "releaseYear": 2016,
-      "genres": ["Drama", "Fantasy", "Horror"],
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
       "rating": 87,
       "seasons": [
         {
@@ -124,14 +138,17 @@
             }
           ]
         }
-      ]
+      ],
+      "src": "https://artworks.thetvdb.com/banners/posters/5d1df8d5be8c8.jpg"
     },
     {
       "id": "4",
       "title": "The Office",
       "creator": "Greg Daniels",
       "releaseYear": 2005,
-      "genres": ["Comedy"],
+      "genres": [
+        "Comedy"
+      ],
       "rating": 89,
       "seasons": [
         {
@@ -166,14 +183,19 @@
             }
           ]
         }
-      ]
+      ],
+      "src": "https://artworks.thetvdb.com/banners/posters/73244-1.jpg"
     },
     {
       "id": "5",
       "title": "The Mandalorian",
       "creator": "Jon Favreau",
       "releaseYear": 2019,
-      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
       "rating": 70,
       "seasons": [
         {
@@ -208,14 +230,19 @@
             }
           ]
         }
-      ]
+      ],
+      "src": "https://artworks.thetvdb.com/banners/series/361753/posters/6403f8c42f916.jpg"
     },
     {
       "id": "6",
       "title": "The Crown",
       "creator": "Peter Morgan",
       "releaseYear": 2016,
-      "genres": ["Biography", "Drama", "History"],
+      "genres": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
       "rating": 55,
       "seasons": [
         {
@@ -250,14 +277,19 @@
             }
           ]
         }
-      ]
+      ],
+      "src": "https://artworks.thetvdb.com/banners/posters/305574-3.jpg"
     },
     {
       "id": "7",
       "title": "The Boys",
       "creator": "Eric Kripke",
       "releaseYear": 2019,
-      "genres": ["Action", "Comedy", "Crime"],
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
       "rating": 24,
       "seasons": [
         {
@@ -292,7 +324,8 @@
             }
           ]
         }
-      ]
+      ],
+      "src": "https://artworks.thetvdb.com/banners/posters/5c5c402b075cc.jpg"
     }
   ]
 }
