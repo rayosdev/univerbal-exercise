@@ -12,7 +12,9 @@ export const typography = StyleSheet.create({
         marginBottom: 8,
     },
     h3: {
-        
+        fontSize: 20,
+        fontWeight: '500',
+        marginBottom: 6,
     },
     body: {
         fontSize: 16,

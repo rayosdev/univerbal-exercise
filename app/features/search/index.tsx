@@ -10,6 +10,7 @@ import {
 import { inputValue$, suggestions$ } from './state';
 import { useAtom, useAtomValue } from 'jotai';
 import { loadable } from 'jotai/utils';
+import { color } from '@/styles/color';
 
 export type SearchProps = {
   style?: StyleProp<ViewStyle>;
@@ -24,10 +25,12 @@ export function Search({ style }: SearchProps): ReactNode {
 
   return (
     <View style={[searchStyles.root, style]}>
+
       <TextInput
         ref={inputRef}
-        style={{ height: 40, borderColor: 'white', borderWidth: 2 }}
+        style={[searchStyles.input, style]}
         placeholder="type to search..."
+        placeholderTextColor={color.textSecondary}
         onChangeText={setInputValue}
         value={inputValue}
       />
@@ -51,13 +54,32 @@ export function Search({ style }: SearchProps): ReactNode {
 
 const searchStyles = StyleSheet.create({
   root: {
-    padding: 20
+    marginTop: 20,
+    justifyContent: 'center',
+    // alignContent: 'center',
+    flex: 1,
+    backgroundColor: '#0000',
   },
 
   input: {
-    padding: 5
+    height: 50,
+    borderWidth: 1,
+    borderColor: '#ddd',
+    borderRadius: 8,
+    paddingHorizontal: 16,
+    marginVertical: 10,
+    fontSize: 16,
+    backgroundColor: '#f9f9f9',
   },
-
+  inputFocused: {
+    borderColor: '#007bff',
+    backgroundColor: '#fff',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 2,
+    elevation: 2,
+  },
   suggestions: {
     width: '100%',
     bottom: 0,
