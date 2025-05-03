@@ -28,6 +28,7 @@ export function FeaturedMovies({ style }: Props): JSX.Element | null {
                 isFavorite
                 title={it.title}
                 onFavoritePress={undefined as any}
+                src={it.src}
               />
             ))}
           </ScrollView>

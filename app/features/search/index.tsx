@@ -20,15 +20,19 @@ export function Search({ style }: SearchProps): ReactNode {
   const [inputValue, setInputValue] = useAtom(inputValue$);
   const suggestions = useAtomValue(loadable(suggestions$));
 
+  
+
   return (
     <View style={[searchStyles.root, style]}>
       <TextInput
         ref={inputRef}
-        style={{ height: 40, borderColor: 'red', borderWidth: 2 }}
+        style={{ height: 40, borderColor: 'white', borderWidth: 2 }}
         placeholder="type to search..."
         onChangeText={setInputValue}
         value={inputValue}
       />
+
+      
 
       {!inputValue ? null : (
         <View style={searchStyles.suggestions}>
@@ -46,9 +50,13 @@ export function Search({ style }: SearchProps): ReactNode {
 }
 
 const searchStyles = StyleSheet.create({
-  root: {},
+  root: {
+    padding: 20
+  },
 
-  input: {},
+  input: {
+    padding: 5
+  },
 
   suggestions: {
     width: '100%',

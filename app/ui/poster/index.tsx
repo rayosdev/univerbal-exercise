@@ -1,11 +1,12 @@
 import {
   View,
   StyleSheet,
-  Image,
   Pressable,
   StyleProp,
   ViewStyle,
+  Text,
 } from 'react-native';
+import { Image } from 'expo-image';
 
 type PosterProps = {
   title: string;
@@ -16,6 +17,7 @@ type PosterProps = {
 };
 
 export function Poster(props: PosterProps) {
+
   return (
     <View style={[styles.wrapper, styles.wrapper]}>
       {props.onFavoritePress && (
@@ -33,13 +35,30 @@ export function Poster(props: PosterProps) {
           {props.isFavorite ? '-' : '+'}
         </Pressable>
       )}
-      <Image alt={props.title} src={props.src} />
+      <Image
+        alt={props.title}
+        source={{ uri: props.src }}
+        style={styles.image}
+      />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  wrapper: {},
+  wrapper: {
+    position: 'relative',
+    // width: 120,
+    justifyContent: 'center',
+    alignItems: 'center',
+    margin: 5,
+    gap: 10,
+    paddingBottom: 5,
+  },
+  image: {
+    width: 150,
+    height: 220,
+    marginBottom: 8,
+  },
   button: {
     borderWidth: 2,
     borderColor: 'yellow',
@@ -51,5 +70,6 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     justifyContent: 'center',
     alignItems: 'center',
+    zIndex: 1,
   },
 });

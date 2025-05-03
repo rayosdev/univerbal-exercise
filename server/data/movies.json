@@ -5,240 +5,379 @@
       "title": "Inception",
       "director": "Christopher Nolan",
       "releaseYear": 2010,
-      "genres": ["Action", "Sci-Fi", "Thriller"],
-      "rating": 75
+      "genres": [
+        "Action",
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "rating": 75,
+      "src": "https://artworks.thetvdb.com/banners/movies/113/posters/2195447.jpg"
     },
     {
       "id": "2",
       "title": "The Matrix",
       "director": "Lana Wachowski, Lilly Wachowski",
       "releaseYear": 1999,
-      "genres": ["Action", "Sci-Fi"],
-      "rating": 87
+      "genres": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "rating": 87,
+      "src": "https://artworks.thetvdb.com/banners/movies/169/posters/5f274c00c85c1.jpg"
     },
     {
       "id": "3",
       "title": "Parasite",
       "director": "Bong Joon Ho",
       "releaseYear": 2019,
-      "genres": ["Drama", "Thriller"],
-      "rating": 39
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "rating": 39,
+      "src": "https://artworks.thetvdb.com/banners/movies/34741/posters/34741.jpg"
     },
     {
       "id": "4",
       "title": "Interstellar",
       "director": "Christopher Nolan",
       "releaseYear": 2014,
-      "genres": ["Adventure", "Drama", "Sci-Fi"],
-      "rating": 86
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Sci-Fi"
+      ],
+      "rating": 86,
+      "src": "https://artworks.thetvdb.com/banners/movies/131079/posters/1846628.jpg"
     },
     {
       "id": "5",
       "title": "The Godfather",
       "director": "Francis Ford Coppola",
       "releaseYear": 1972,
-      "genres": ["Crime", "Drama"],
-      "rating": 92
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "rating": 92,
+      "src": "https://artworks.thetvdb.com/banners/movies/275/posters/60017eefeaa3a.jpg"
     },
     {
       "id": "6",
       "title": "The Dark Knight",
       "director": "Christopher Nolan",
       "releaseYear": 2008,
-      "genres": ["Action", "Crime", "Drama"],
-      "rating": 90
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "rating": 90,
+      "src": "https://artworks.thetvdb.com/banners/v4/movie/116/posters/60d4cbc556e3c.jpg"
     },
     {
       "id": "7",
       "title": "Fight Club",
       "director": "David Fincher",
       "releaseYear": 1999,
-      "genres": ["Drama"],
-      "rating": 74
+      "genres": [
+        "Drama"
+      ],
+      "rating": 74,
+      "src": "https://artworks.thetvdb.com/banners/movies/247/posters/5f610c83ddd29.jpg"
     },
     {
       "id": "8",
       "title": "Pulp Fiction",
       "director": "Quentin Tarantino",
       "releaseYear": 1994,
-      "genres": ["Crime", "Drama"],
-      "rating": 150
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "rating": 150,
+      "src": "https://artworks.thetvdb.com/banners/movies/228/posters/2395182.jpg"
     },
     {
       "id": "9",
       "title": "Schindler's List",
       "director": "Steven Spielberg",
       "releaseYear": 1993,
-      "genres": ["Biography", "Drama", "History"],
-      "rating": 90
+      "genres": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "rating": 90,
+      "src": "https://artworks.thetvdb.com/banners/movies/223/posters/2394887.jpg"
     },
     {
       "id": "10",
       "title": "The Lord of the Rings: The Return of the King",
       "director": "Peter Jackson",
       "releaseYear": 2003,
-      "genres": ["Action", "Adventure", "Drama"],
-      "rating": 73
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "rating": 73,
+      "src": "https://artworks.thetvdb.com/banners/movies/74/posters/74.jpg"
     },
     {
       "id": "11",
       "title": "The Shawshank Redemption",
       "director": "Frank Darabont",
       "releaseYear": 1994,
-      "genres": ["Drama"],
-      "rating": 89
+      "genres": [
+        "Drama"
+      ],
+      "rating": 89,
+      "src": "https://artworks.thetvdb.com/banners/v4/movie/190/posters/6089f8cd44f59.jpg"
     },
     {
       "id": "12",
       "title": "Forrest Gump",
       "director": "Robert Zemeckis",
       "releaseYear": 1994,
-      "genres": ["Drama", "Romance"],
-      "rating": 55
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "rating": 55,
+      "src": "https://artworks.thetvdb.com/banners/v4/movie/294/posters/607b6a79b56bb.jpg"
     },
     {
       "id": "13",
       "title": "The Lion King",
       "director": "Roger Allers, Rob Minkoff",
       "releaseYear": 1994,
-      "genres": ["Animation", "Adventure", "Drama"],
-      "rating": 85
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Drama"
+      ],
+      "rating": 85,
+      "src": "https://artworks.thetvdb.com/banners/v4/movie/5024/posters/609c6ba2c4c7a.jpg"
     },
     {
       "id": "14",
       "title": "Gladiator",
       "director": "Ridley Scott",
       "releaseYear": 2000,
-      "genres": ["Action", "Adventure", "Drama"],
-      "rating": 33
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "rating": 33,
+      "src": "https://artworks.thetvdb.com/banners/v4/movie/419/posters/60cf56c5585ae.jpg"
     },
     {
       "id": "15",
       "title": "Avatar",
       "director": "James Cameron",
       "releaseYear": 2009,
-      "genres": ["Action", "Adventure", "Fantasy"],
-      "rating": 78
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "rating": 78,
+      "src": "https://artworks.thetvdb.com/banners/v4/movie/165/posters/63f36e60750a3.jpg"
     },
     {
       "id": "16",
       "title": "Avengers: Endgame",
       "director": "Anthony Russo, Joe Russo",
       "releaseYear": 2019,
-      "genres": ["Action", "Adventure", "Drama"],
-      "rating": 84
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "rating": 84,
+      "src": "https://artworks.thetvdb.com/banners/movies/148/posters/5f21e4031fea4.jpg"
     },
     {
       "id": "17",
       "title": "The Prestige",
       "director": "Christopher Nolan",
       "releaseYear": 2006,
-      "genres": ["Drama", "Mystery", "Sci-Fi"],
-      "rating": 85
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi"
+      ],
+      "rating": 85,
+      "src": "https://artworks.thetvdb.com/banners/v4/movie/302/posters/62ccc078b195f.jpg"
     },
     {
       "id": "18",
       "title": "Saving Private Ryan",
       "director": "Steven Spielberg",
       "releaseYear": 1998,
-      "genres": ["Drama", "War"],
-      "rating": 230
+      "genres": [
+        "Drama",
+        "War"
+      ],
+      "rating": 230,
+      "src": "https://artworks.thetvdb.com/banners/movies/569/posters/2123847.jpg"
     },
     {
       "id": "19",
       "title": "Spirited Away",
       "director": "Hayao Miyazaki",
       "releaseYear": 2001,
-      "genres": ["Animation", "Adventure", "Family"],
-      "rating": 86
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Family"
+      ],
+      "rating": 86,
+      "src": "https://artworks.thetvdb.com/banners/movies/187028/posters/x1iaVnI4mTaETwAKTLyIAKFwQSJ.jpg"
     },
     {
       "id": "20",
       "title": "The Green Mile",
       "director": "Frank Darabont",
       "releaseYear": 1999,
-      "genres": ["Crime", "Drama", "Fantasy"],
-      "rating": 86
+      "genres": [
+        "Crime",
+        "Drama",
+        "Fantasy"
+      ],
+      "rating": 86,
+      "src": "https://artworks.thetvdb.com/banners/v4/movie/308/posters/607cc5bca5bcf.jpg"
     },
     {
       "id": "21",
       "title": "Jurassic Park",
       "director": "Steven Spielberg",
       "releaseYear": 1993,
-      "genres": ["Action", "Adventure", "Sci-Fi"],
-      "rating": 81
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "rating": 81,
+      "src": "https://artworks.thetvdb.com/banners/movies/867/posters/867.jpg"
     },
     {
       "id": "22",
       "title": "Goodfellas",
       "director": "Martin Scorsese",
       "releaseYear": 1990,
-      "genres": ["Biography", "Crime", "Drama"],
-      "rating": 33
+      "genres": [
+        "Biography",
+        "Crime",
+        "Drama"
+      ],
+      "rating": 33,
+      "src": "https://artworks.thetvdb.com/banners/movies/380/posters/380.jpg"
     },
     {
       "id": "23",
       "title": "Braveheart",
       "director": "Mel Gibson",
       "releaseYear": 1995,
-      "genres": ["Biography", "Drama", "History"],
-      "rating": 83
+      "genres": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "rating": 83,
+      "src": "https://artworks.thetvdb.com/banners/movies/703/posters/2395188.jpg"
     },
     {
       "id": "24",
       "title": "Django Unchained",
       "director": "Quentin Tarantino",
       "releaseYear": 2012,
-      "genres": ["Drama", "Western"],
-      "rating": 84
+      "genres": [
+        "Drama",
+        "Western"
+      ],
+      "rating": 84,
+      "src": "https://artworks.thetvdb.com/banners/v4/movie/289/posters/67c8b5a2590a1.jpg"
     },
     {
       "id": "25",
       "title": "The Departed",
       "director": "Martin Scorsese",
       "releaseYear": 2006,
-      "genres": ["Crime", "Drama", "Thriller"],
-      "rating": 55
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "rating": 55,
+      "src": "https://artworks.thetvdb.com/banners/v4/movie/590/posters/67bbcd6a72f33.jpg"
     },
     {
       "id": "26",
       "title": "12 Years a Slave",
       "director": "Steve McQueen",
       "releaseYear": 2013,
-      "genres": ["Biography", "Drama", "History"],
-      "rating": 43
+      "genres": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "rating": 43,
+      "src": "https://artworks.thetvdb.com/banners/v4/movie/802/posters/661fef133c355.jpg"
     },
     {
       "id": "27",
       "title": "The Wolf of Wall Street",
       "director": "Martin Scorsese",
       "releaseYear": 2013,
-      "genres": ["Biography", "Crime", "Drama"],
-      "rating": 70
+      "genres": [
+        "Biography",
+        "Crime",
+        "Drama"
+      ],
+      "rating": 70,
+      "src": "https://artworks.thetvdb.com/banners/movies/389/posters/389.jpg"
     },
     {
       "id": "28",
       "title": "Mad Max: Fury Road",
       "director": "George Miller",
       "releaseYear": 2015,
-      "genres": ["Action", "Adventure", "Sci-Fi"],
-      "rating": 99
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "rating": 99,
+      "src": "https://artworks.thetvdb.com/banners/v4/movie/383/posters/6659ad3ea3a11.jpg"
     },
     {
       "id": "29",
       "title": "The Grand Budapest Hotel",
       "director": "Wes Anderson",
       "releaseYear": 2014,
-      "genres": ["Adventure", "Comedy", "Crime"],
-      "rating": 12
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Crime"
+      ],
+      "rating": 12,
+      "src": "https://artworks.thetvdb.com/banners/v4/movie/421/posters/60bab39b084d7.jpg"
     },
     {
       "id": "30",
       "title": "Toy Story",
       "director": "John Lasseter",
       "releaseYear": 1995,
-      "genres": ["Animation", "Adventure", "Comedy"],
-      "rating": 50
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "rating": 50,
+      "src": "https://artworks.thetvdb.com/banners/v4/movie/318/posters/62718d125e610.jpg"
     }
   ]
 }
