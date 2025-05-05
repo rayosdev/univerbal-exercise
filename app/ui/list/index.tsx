@@ -1,23 +1,27 @@
 import { ReactNode } from 'react';
 import {
-  FlatList,
   StyleProp,
   View,
   ViewStyle,
   Text,
   StyleSheet,
+  SectionList,
 } from 'react-native';
 
 import { Rating } from '../rating';
+import { Movie } from 'domain/movie';
+import { TVSeries } from 'domain/tv-series';
 
 type ListProps = {
   style?: StyleProp<ViewStyle>;
-  data: { id: string }[];
+  data: Movie[] | TVSeries[];
 };
 
 export function List({ style, data }: ListProps): ReactNode {
   return (
-    <FlatList
+    <SectionList
+      sections={[{ title: 'Top Rated', data }]}
+      stickySectionHeadersEnabled={false}
       style={style}
       data={data}
       keyExtractor={(it) => it.id}
@@ -25,8 +29,8 @@ export function List({ style, data }: ListProps): ReactNode {
         return (
           <ListEntry
             style={undefined}
-            rating={(it.item as any).rating}
-            title={(it.item as any).title}
+            rating={it.item.rating}
+            title={it.item.title}
           />
         );
       }}
@@ -38,6 +42,7 @@ type ListEntryProps = {
   style: any | undefined;
   title: string;
   rating: number;
+  src?: string;
 };
 
 function ListEntry({ style, title, rating }: ListEntryProps): ReactNode {

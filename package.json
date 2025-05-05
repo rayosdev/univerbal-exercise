@@ -5,7 +5,7 @@
   "scripts": {
     "start:server": "ts-node ./server/mock.ts",
     "adb:reverse": "adb reverse tcp:8081 tcp:8081",
-    "start": "npm run adb:reverse && EXPO_PUBLIC_SERVER_IP=$(./scripts/local-ip.sh) EXPO_PUBLIC_SERVER_PORT=3003 expo start -c",
+    "start": "EXPO_PUBLIC_SERVER_IP=$(./scripts/local-ip.sh) EXPO_PUBLIC_SERVER_PORT=3003 expo start -c",
     "android": "npm run adb:reverse && EXPO_PUBLIC_SERVER_IP=$(./scripts/local-ip.sh) EXPO_PUBLIC_SERVER_PORT=3003 expo start --android",
     "ios": "EXPO_PUBLIC_SERVER_IP=$(./scripts/local-ip.sh) EXPO_PUBLIC_SERVER_PORT=3003 expo start --ios",
     "check:format": "prettier --check ./",

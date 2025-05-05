@@ -1,5 +1,5 @@
 import { Poster } from '@/ui/poster';
-import { FlatList, ScrollView, SectionList, StyleSheet, Text, View } from 'react-native';
+import { SectionList, StyleSheet, Text, View } from 'react-native';
 import { featuredTvSeries$ } from './state';
 import { useAtom } from 'jotai';
 import { useEffect } from 'react';

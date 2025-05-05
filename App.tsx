@@ -33,7 +33,7 @@ if (result.error) {
 export default function App() {
   return (
     <NavigationContainer theme={MyTheme}>
-      <StatusBar style="dark" animated />
+      <StatusBar style="light" animated />
       <Tab.Navigator initialRouteName={appRouteNames.root}>
         <Tab.Screen
           name="tab-home"
